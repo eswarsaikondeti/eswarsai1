@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-munch-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+#navItem1 {
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+#navItem2 {
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+#navItem3 {
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+#navItem4 {
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+.resturent-bg {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/05/42/54/57/1000_F_542545783_szqo36wk6a7ld9WHrX9ijeA8JXpxRA80.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.first-part-heading {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+}
+
+.first-part-paragraph {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: white;
+    font-style: italic;
+}
+
+.butn {
+    background-color: #d0b200;
+    height: 60px;
+    width: 180px;
+    font-family: "Roboto";
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 22px;
+}
+
+.but {
+    background-color: transparent;
+    height: 60px;
+    width: 180px;
+    font-family: "Roboto";
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 22px;
+    border-style: solid;
+    border-color: #d0b200;
+}
+
+.wcu-section {
+    background-color: white;
+    padding: 8px;
+}
+
+.wcu-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+.image-box {
+    height: 90px;
+    width: 80px;
+}
+
+.card-bg {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.choose-heading {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: black;
+}
+
+.choose-paragraph {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: black;
+}
+
+.food {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bg-edit {
+    background-color: #0d2436;
+}
+
+.follow-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #959ead;
+}
+
+.icon {
+    color: #959ead;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+}
+
+.icon-bg {
+    margin: 10px;
+}
+
+.us-head {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #959ead;
+}
+
+.follow {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: #959ead;
+    margin: 5px;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.hori {
+    background-color: #5a7184;
+}
+
+.parra {
+    color: #959ead;
+    font-size: 20px;
+}
+
+.size {
+    color: #959ead;
+    font-size: 20px;
+}
+
+.meanu-bg {
+    background-color: white;
+}
+
+.card-bg-edit {
+    background-color: white;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-head {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: black;
+    font-style: italic;
+}
+
+.butte {
+    background-color: green;
+    height: 40px;
+    width: 110px;
+    font-family: "Roboto";
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 18px;
+}
+
+.meanu-section-head {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+
+.edit-color {
+    color: orange;
+    font-style: italic;
+}
+
+.explore {
+    color: green;
+    text-decoration: line-through;
+}
+
+.Offer-section {
+    background-color: white;
+}
+
+.img-editing-special {
+    width: 250px;
+}
+
+.center {
+    text-align: center;
+}

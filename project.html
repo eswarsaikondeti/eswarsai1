@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./styles.css">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-red bg-white mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://th.bing.com/th/id/OIP.sxN9ENzoAmPeH5E0cQEV_gHaHa?pid=ImgDet&rs=1" class="food-munch-logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#wcuSection" id="navItem1">Why Choose Us?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#meanuSection" id="navItem2">Meanu Section</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specialOfferSection" id="navItem3">Special Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#followSection" id="navItem3">Follow Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#followSection" id="navItem3"></a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" onclick="searchButton()" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="resturent-bg d-flex flex-column justify-content-center text-center">
+        <h1 class="first-part-heading"> Friends <span class="edit-color">club</span> Resturent</h1>
+        <p class="first-part-paragraph">Welocome One and All </p>
+        <div class="center">
+            <button class="butn"> View Now </button>
+            <button class="but"> Buy Now </button>
+        </div>
+    </div>
+    <div class="wcu-section" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-heading">Why Choose Us?</h1>
+                    <p class="choose-paragraph"> We are provide the best food to us and our specility is
+                        to give tasty food and healthy food to the people.
+                        And we have containing a frindely relationship to our costmers. </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-bg shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="image-box" />
+                        <h1 class="choose-heading pt-2">Food Service </h1>
+                        <p class="choose-paragraph"> We are providing the best service to us
+                            and cleanlely and healthy food we are to provide</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-bg shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="image-box" />
+                        <h1 class="choose-heading pt-2">Fruits Providing </h1>
+                        <p class="choose-paragraph"> We are providing the fruits before eating food
+                            for the health consises so we have available fruits also </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card-bg shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="image-box" />
+                        <h1 class="choose-heading pt-2">Best Offers </h1>
+                        <p class="choose-paragraph"> We are providing the food and meterial for best offers and
+                            it will be avaliable only <spam class="food">50% Offer </spam> is available hear </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hori" />
+    <div class="meanu-bg" id="meanuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="meanu-section-head">Meanu Section</h1>
+                    <p class="choose-paragraph"> The meanu section will be provides the items are available in our resturent. We are providing so many items please view the items and give your order. </p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/75/12/02/1000_F_275120298_67brtgGKDxjsIRZUEXNvvGiHNXzKvm5s.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Non veg starters <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/82/37/46/1000_F_182374624_qQWWYzVAAk1hin8gG3ZSESYqy7iBoPjV.jpg" class="image-l w-100" />
+                        <h1 class="card-head">veg starters <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/premium-photo/green-grapes-hanging-bush-damnoen-saduk-ratchaburi-province-thailand_38810-918.jpg" class="image-l w-100" />
+                        <h1 class="card-head">fruits <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/premium-photo/ice-cream-scoops-white-bowl_488220-38539.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Ice cream <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/premium-photo/restaurant-style-spicy-chicken-biryani-wooden-bowl-with-raita-salan-popular-indian-pakistani-food_466689-2201.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Main Course <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/free-photo/schezwan-szechwan-hakka-noodles-with-paneer-cottage-cheese-served-bowl-selective-focus_466689-74477.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Noodles <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/free-photo/tomato-soup-with-green-table_140725-2447.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Soup <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card-bg-edit shadow">
+                        <img src="https://img.freepik.com/free-photo/two-tortillas_144627-1368.jpg" class="image-l w-100" />
+                        <h1 class="card-head">Shawarma <span class="explore">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </span>
+                        </h1>
+                        <button class="butte">View all</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hori" />
+        <div class="Offer-section shadow p-3" id="specialOfferSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <h1 class="meanu-section-head">Special Offers</h1>
+                        <p class="choose-paragraph"> We are giving a <span class="food">Special Offer</span> for you. This offer has contain limited time <span class="food">HURRY UP</span> it was colses soon. This is the onetime offer Never expert this next time So hurry up and place your oreder. </p>
+                        <div class="center d-md-none">
+                            <img src="https://img.freepik.com/premium-vector/red-circular-sticker-with-pointed-edges-written-it-special-offer_470458-80.jpg" class="img-editing-special" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 d-none d-md-block">
+                        <img src="https://img.freepik.com/premium-vector/red-circular-sticker-with-pointed-edges-written-it-special-offer_470458-80.jpg" class="img-editing-special" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hori" />
+    <div class="bg-edit p-3" id="followSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-heading text-center">Follow Us</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="icon-bg">
+                            <a href="https://twitter.com/"><i class="fab fa-twitter icon"></i></a>
+                        </div>
+                        <div class="icon-bg">
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram icon"></i></a>
+                        </div>
+                        <div class="icon-bg">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook icon"></i></a>
+                        </div>
+                        <div class="icon-bg">
+                            <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp icon"></i></a>
+                        </div>
+                        <div class="icon-bg">
+                            <a href="https://in.linkedin.com/"><i class="fab fa-linkedin icon"></i></a>
+                        </div>
+                    </div>
+                    <hr class="hori" />
+                    <div class="text-center">
+                        <i class="fa fa-copyright size" aria-hidden="true"></i>
+                        <spam class="parra"> 2023 eswarsai created by bootstrap Resposive Web Site </spam>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="./eswar.js" charset="UTF-8"></script>
+</body>
+
+</html>
